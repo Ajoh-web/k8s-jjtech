@@ -4,7 +4,7 @@
 General commands
 ##########################
 
-aws eks update-kubeconfig --name <insert name of cluster> --region <region>
+aws eks update-kubeconfig --name jjtech-demo-cluster --region us-east-1
 
 alias k=kubectl
 alias kgp="kubectl get po" 

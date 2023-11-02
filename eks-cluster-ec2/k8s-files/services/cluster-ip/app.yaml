@@ -3,13 +3,13 @@ kind: Deployment
 metadata:
   name: my-app
   labels:
-    app: my-app
+    app: my-deploment
 spec:
   replicas: 5
   selector:
     matchLabels:
       app: my-app
-  template:
+  template :   
     metadata:
       labels:
         app: my-app
